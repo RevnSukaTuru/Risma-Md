@@ -20,15 +20,15 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://api.xteam.xyz': 'apikeylu',
-  'https://melcanz.com': 'apikeylu',
-  'https://api.lolhuman.xyz': 'apikeylu',
+  'https://api.xteam.xyz': 'vanzzbotz',
+  'https://melcanz.com': 'vanzzbotz',
+  'https://api.lolhuman.xyz': 'vanzzbotz',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apikeylu',
-  'https://pencarikode.xyz': 'apikeylu',
+  'https://api.zeks.me': 'apikeyaine',
+  'https://pencarikode.xyz': 'paiss',
   'https://hardianto.xyz': 'hardianto',
-  'https://leyscoders-api.herokuapp.com': 'apikeylu',
-  'https://api.adiofficial.xyz': 'apikey lu'
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
+  'https://api.adiofficial.xyz': 'BETA'
 }
 
 //global.wm = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆'
