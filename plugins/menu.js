@@ -35,7 +35,7 @@ const defaultMenu = {
   body: '┆⬡ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `
-*%JarotOffc@^%version*
+*%VanzzOFX@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -200,8 +200,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 V-Botz',
         rows: [
           { title: 'allmenu', rowId: `${_p}? all` },
-          { title: 'info alpi', rowId: `${_p}? infonadia` },
-          { title: 'info jarot', rowId: `${_p}? infomursid` },
+
+          { title: 'info owner', rowId: `${_p}? infomursid` },
           { title: 'game', rowId: `${_p}? game` },
           { title: 'xp', rowId: `${_p}? xp` },
           { title: 'stiker', rowId: `${_p}? stiker` },
