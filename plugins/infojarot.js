@@ -20,7 +20,7 @@ conn.reply(m.chat, `
 `.trim(), m)
 }
 
-handler.help = ['inforevan]
+handler.help = ['inforevan']
 handler.tags = ['main', 'utama']
 handler.command = /^(inforevan)$/i
 
