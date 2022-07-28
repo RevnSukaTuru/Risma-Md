@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
 conn.reply(m.chat, `
 ╭─˗ˏˋ *INFORMASI OWNER* ´ˎ˗
-│ ✎ _Nama_ : Jarot
+│ ✎ _Nama_ : Revan
 │ ✎ _Sekolah_ : Bocel Esempe
 │ ✎ _Umur_ : Bocel
 │ ✎ _Asal_ : Aceh
@@ -24,6 +24,6 @@ handler.help = ['inforevan']
 handler.tags = ['main', 'utama']
 handler.command = /^(inforevan)$/i
 
-handler.exp = 150
+handler.exp = 100
 
 module.exports = handler
