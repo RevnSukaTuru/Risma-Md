@@ -100,7 +100,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'anonymous': 'Anonymous Chat'
   }
   if (teks == 'jadian') tags = {
-    'nulis': 'Jadian'
+    'jadian': 'Jadian'
   }
   if (teks == 'nulis') tags = {
     'nulis': 'MagerNulis & Logo'
