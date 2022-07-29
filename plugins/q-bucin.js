@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  let bucinn = pickRandom(global.bucinn)
+  let bucinn = pickRandom(global.bucin)
   conn.sendButton(m.chat, bucinn, wm, `Bucin`, `${usedPrefix + command}`, m)
 }
 handler.help = ['bucin']
