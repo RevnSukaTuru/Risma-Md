@@ -11,7 +11,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-const bucin = [
+global.bucin = [
     "Aku memilih untuk sendiri, bukan karena menunggu yang sempurna, tetapi butuh yang tak pernah menyerah.",
     "Seorang yang single diciptakan bersama pasangan yang belum ditemukannya.",
     "Jomblo. Mungkin itu cara Tuhan untuk mengatakan 'Istirahatlah dari cinta yang salah'.",
