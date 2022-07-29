@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  let gomball = pickRandom(global.gomball)
+  let gomball = pickRandom(global.gombal)
   conn.sendButton(m.chat, gomball, wm, `Gombal`, `${usedPrefix + command}`, m)
 }
 handler.help = ['gombal']
@@ -11,7 +11,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-const gombal = [
+global.gombal = [
 "Kamu tau gak? Kenapa kalau aku menghafal lihatnya ke atas? soalnya kalau merem langsung kebayang wajahmu.",
 "Orang kurus itu setia, makan aja tidak pernah nambah apalagi pasangan.",
 "Kamu tu kayak warteg, sederhana namun berkualitas.",
