@@ -57,7 +57,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'premium': 'Premium',
     'internet': 'Internet',
     'anonymous': 'Anonymous Chat',
-    'jadian' : 'Jadian'
+    'jadian': 'Jadian'
     'nulis': 'MagerNulis & Logo',
     'downloader': 'Downloader',
     'tools': 'Tools',
@@ -204,8 +204,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 V-Botz',
         rows: [
           { title: 'allmenu', rowId: `${_p}? all` },
-          { title: 'info owner', rowId: `${_p}? Info Owner` },
-          { title: 'Jadian', rowId: `${_p}? Jadian` },
+          { title: 'info owner', rowId: `${_p}? Infoowner` },
+          { title: 'Jadian', rowId: `${_p}? jadian` },
           { title: 'game', rowId: `${_p}? game` },
           { title: 'xp', rowId: `${_p}? xp` },
           { title: 'stiker', rowId: `${_p}? stiker` },
